@@ -40,6 +40,8 @@ public class Ejercicio32 {
 
         int monedasDe2 = dineroTotal / 2;
         dineroTotal = dineroTotal % 2;
+        
+        //Cada vez que usamos % , calculamos lo que sobra d usar esos billetes o monedas.
 
         int monedasDe1 = dineroTotal; // lo que queda son monedas de 1 euro
 

@@ -33,7 +33,7 @@ public class Ejercicio26 {
         terceraCifra = numero % 100 / 10;
         System.out.println("La tercera cifra es: " + terceraCifra);//Sout para pedir tercera cifras 
         cuartaCifra = numero % 10;
-        System.out.println("La cuarta cifra es: " + cuartaCifra);//Sout para pedir cuarta cifras 
+        System.out.println("La cuarta cifra es: " + cuartaCifra);//Sout para pedir cu cifras 
     }
 
 }
