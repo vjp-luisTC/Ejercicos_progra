@@ -29,7 +29,7 @@ public class Ejercicio21 {
         minutos=tiempo/60;
         tiempo=tiempo%60;
         segundos=minutos%60;
-        System.out.println(tiempo + " segundos hacen un total de: " + dias + " dias, " + horas + " horas, " + minutos + " minutos y " + segundos + " segundos.");
+        System.out.println(  + tiempo + " segundos hacen un total de: " + dias + " dias, " + horas + " horas, " + minutos + " minutos y " + segundos + " segundos.");
     }
     
 }
