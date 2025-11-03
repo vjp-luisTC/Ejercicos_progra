@@ -13,8 +13,7 @@ public class Utilidades {
 // Metodo estático, datos deben entrar por parámetro,no hay atributos (Varibles ) donde guardarlos.
        
      int menor = a;
-        
-
+       
         if (b < menor) {
             menor = b;
         }

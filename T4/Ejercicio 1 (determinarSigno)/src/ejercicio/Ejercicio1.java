@@ -33,12 +33,12 @@ public class Ejercicio1 {
 
     // Método que determina si un número es positivo o negativo
     public static String determinarSigno(double num) {
-        if (num > 0) {
-            return "positivo";
-        } else if (num < 0) {
-            return "negativo";
-        } else {
-            return "cero";
+        if (num > 0) { //num es mayor que cero 
+            return "positivo";//devuelve positivo
+        } else if (num < 0) { // Si no se cumplió la primera condición y num es menor que cero
+            return "negativo"; // devuelve negativo
+        } else { //cumple ninguna de las anteriores
+            return "cero"; //devuelve 0
         }
-    }
+    }  
 }
