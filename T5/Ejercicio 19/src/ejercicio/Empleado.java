@@ -19,17 +19,16 @@ public class Empleado {
 
     // Constructor donde se piden los datos al usuario (como exige el ejercicio)
     public Empleado() {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Introduzca el nombre del empleado: ");
-        nombre = sc.nextLine();
+        nombre = scanner.nextLine();
 
         System.out.print("Introduzca las horas trabajadas: ");
-        horas = sc.nextInt();
+        horas = scanner.nextInt();
 
         System.out.print("Introduzca la tarifa por hora: ");
-        tarifa = sc.nextDouble();
-        sc.nextLine(); // limpiar buffer
+        tarifa = scanner.nextDouble();
     }
 
     // Método que calcula el sueldo bruto según lo indicado

@@ -10,11 +10,28 @@ package ejercicio;
  */
 public class Test {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        System.out.println("=== EMPLEADO 1 ===");
+        Empleado emp1 = new Empleado();
+
+        System.out.println("\n=== EMPLEADO 2 ===");
+        Empleado emp2 = new Empleado();
+
+        System.out.println("\n=== EMPLEADO 3 ===");
+        Empleado emp3 = new Empleado();
+
+        mostrarSueldo(emp1);
+        mostrarSueldo(emp2);
+        mostrarSueldo(emp3);
     }
-    
+
+    public static void mostrarSueldo(Empleado e) {
+        double sueldo = e.calcularSueldo();
+
+        System.out.println("\n" + e.getNombre() + " trabajó " 
+                + e.getHoras() + " horas, cobra " 
+                + e.getTarifa() + " euros la hora, por lo que le corresponde un sueldo de " 
+                + sueldo + " euros.");
+    }
 }
