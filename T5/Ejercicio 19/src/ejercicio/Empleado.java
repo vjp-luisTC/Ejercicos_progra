@@ -19,6 +19,8 @@ public class Empleado {
 
     // Constructor donde se piden los datos al usuario (como exige el ejercicio)
     public Empleado() {
+        //Pedir datos en main y pasar al parametrizado
+        //Falta el constructor parametrizado , setter
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Introduzca el nombre del empleado: ");
@@ -45,11 +47,23 @@ public class Empleado {
         return nombre;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public int getHoras() {
         return horas;
     }
 
+    public void setHoras(int horas) {
+        this.horas = horas;
+    }
+
     public double getTarifa() {
         return tarifa;
+    }
+
+    public void setTarifa(double tarifa) {
+        this.tarifa = tarifa;
     }
 }

@@ -12,13 +12,13 @@ public class Test {
 
     public static void main(String[] args) {
 
-        System.out.println("=== EMPLEADO 1 ===");
+        System.out.println("EMPLEADO 1 ");
         Empleado emp1 = new Empleado();
 
-        System.out.println("\n=== EMPLEADO 2 ===");
+        System.out.println(" EMPLEADO 2");
         Empleado emp2 = new Empleado();
 
-        System.out.println("\n=== EMPLEADO 3 ===");
+        System.out.println("EMPLEADO 3 ");
         Empleado emp3 = new Empleado();
 
         mostrarSueldo(emp1);
